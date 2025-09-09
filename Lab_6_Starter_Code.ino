@@ -56,7 +56,7 @@ void loop() {
 
   // read three sensors and append to the string:
   //for (int analogPin = 0; analogPin < 3; analogPin++) {
-    int analogPin = 0;
+    int analogPin = 2;
     int sensor = analogRead(analogPin);
     dataString += String(sensor);
    
